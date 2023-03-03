@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router'
 import Logo from './Logo.vue'
 </script>
 <template>
@@ -9,7 +10,9 @@ import Logo from './Logo.vue'
             <Logo></Logo>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Trang Chủ</a></li>
+                
+                    <li><RouterLink to="/">Home</RouterLink></li>
+                    <li> <RouterLink to="/about">About</RouterLink></li>
                     <li><a class="nav-link scrollto" href="#about">Elite Four</a></li>
                     <li><a class="nav-link scrollto" href="#services">Gym Leader</a></li>
                 <li><a class="nav-link scrollto" href="#portfolio">Idol Sky</a></li>
