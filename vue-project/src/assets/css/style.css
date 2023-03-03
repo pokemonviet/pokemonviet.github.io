@@ -179,7 +179,7 @@ section {
 .header.header-scrolled {
   background: #fff;
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  box-shadow: 0px 2px 20px rgba(107, 26, 26, 0.5);
 }
 
 .header .logo {
@@ -514,6 +514,10 @@ section {
 
   .hero .hero-img img {
     width: 80%;
+  }
+
+  .hero .hero-img-2 img {
+    width: 20%;
   }
 }
 
